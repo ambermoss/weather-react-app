@@ -1,17 +1,23 @@
-import "./App.css";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Weather />
-      <small>
-        <a href="https://github.com/ambermoss/weather-react-app">
-          Open-source code
-        </a>
-      </small>
+      <div className="container">
+        <Weather />
+        <footer>
+          This project was coded by Amber Moss
+          <br></br>
+          <a
+            href="https://github.com/ambermoss/weather-react-app"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
