@@ -10,10 +10,7 @@ export default function App() {
         <footer>
           This project was coded by Amber Moss
           <br></br>
-          <a
-            href="https://github.com/ambermoss/weather-react-app"
-            target="_blank"
-          >
+          <a href="https://github.com/ambermoss/weather-react-app">
             open-sourced on GitHub
           </a>
         </footer>
