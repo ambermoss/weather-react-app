@@ -7,10 +7,6 @@ export default function WeatherTemperature(props) {
     setUnit("fahrenheit");
   }
 
-  function fahrenheit() {
-    return (props.celsius * 9) / 5 + 32;
-  }
-
   function showCelsius(event) {
     event.preventDefault();
     setUnit("celsius");
@@ -29,6 +25,7 @@ export default function WeatherTemperature(props) {
       </div>
     );
   } else {
+    let fahrenheit = (props.celsius * 9) / 5 + 32;
     return (
       <div className="WeatherTemperature">
         <span className="temperature">{Math.round(fahrenheit)}</span>
