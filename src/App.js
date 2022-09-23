@@ -8,8 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This project was coded by Amber Moss
-          <br></br>
+          This project was coded by Amber Moss and is {""}
           <a
             href="https://github.com/ambermoss/weather-react-app"
             target="_blank"
